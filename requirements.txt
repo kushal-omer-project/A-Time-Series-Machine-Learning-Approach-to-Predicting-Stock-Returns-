@@ -1,0 +1,51 @@
+# Data Analysis & Processing
+pandas
+numpy
+scipy
+
+# Data Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+
+# Hyperparameter Optimization
+optuna
+
+# Data Sources
+kaggle
+requests
+beautifulsoup4
+
+# Technical Analysis
+ta
+yfinance
+
+# Real-time & Async
+aiohttp
+asyncio
+schedule
+
+# Environment & Configuration
+python-dotenv
+configparse
+
+# Jupyter & Development
+jupyter
+ipykernel
+
+# Utilities
+tqdm
+loguru
+
+# Web Framework (for future dashboard)
+streamlit
+
+# API Server Dependencies
+fastapi
+uvicorn[standard]
+pydantic
