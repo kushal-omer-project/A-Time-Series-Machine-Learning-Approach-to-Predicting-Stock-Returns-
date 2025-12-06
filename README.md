@@ -1,4 +1,4 @@
-# Stock Market Prediction Engine
+# A Time-Series Machine Learning Approach to Predicting Stock Returns​
 
 > **Machine Learning System for Stock Market Analysis and Prediction using XGBoost and LightGBM**
 
