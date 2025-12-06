@@ -5,6 +5,8 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+**Repository**: [https://github.com/kushalX13/A-Time-Series-Machine-Learning-Approach-to-Predicting-Stock-Returns-](https://github.com/kushalX13/A-Time-Series-Machine-Learning-Approach-to-Predicting-Stock-Returns-)
+
 ## Project Overview
 
 A comprehensive machine learning system designed to predict stock market movements using advanced feature engineering and gradient boosting models. This project focuses on comparing XGBoost and LightGBM models for stock return prediction, demonstrating end-to-end data science capabilities from data acquisition to model deployment.
@@ -193,16 +195,8 @@ Run the scripts in the `scripts/` directory in the following order:
    - Performs portfolio optimization
    - Generates risk analysis reports
 
-9. **Ensemble Methods** (Optional):
-   ```bash
-   python scripts/ensemble_methods_stacking.py
-   ```
-   This script:
-   - Creates ensemble models using stacking
-   - Combines multiple model predictions
-   - Evaluates ensemble performance
 
-10. **Run Integration Tests**:
+9. **Run Integration Tests**:
    ```bash
    python main.py
    ```
@@ -267,12 +261,6 @@ stock-market-prediction-engine/
 - **pandas & NumPy** - Data manipulation and numerical computing
 - **TA-Lib** - Technical analysis indicators
 
-### Web Framework & Visualization
-- **FastAPI** - High-performance REST API with automatic documentation
-- **Streamlit** - Interactive dashboard and real-time visualization
-- **Plotly** - Professional interactive charts and graphs
-- **Pydantic** - Data validation and serialization
-
 ### Data Sources
 - **yfinance** - Real-time market data fetching
 - **Kaggle API** - Historical dataset acquisition
@@ -312,10 +300,7 @@ stock-market-prediction-engine/
 - Risk metrics visualization and monitoring
 - Model insights and feature importance
 
-### REST API
-- RESTful endpoints with comprehensive documentation
-- Response caching for optimal performance
-- Health monitoring and error handling
+
 
 ## Troubleshooting
 
@@ -369,5 +354,7 @@ This project is for educational and portfolio demonstration purposes.
 <div align="center">
 
 **Built for the data science and finance community**
+
+[View on GitHub](https://github.com/kushalX13/A-Time-Series-Machine-Learning-Approach-to-Predicting-Stock-Returns-)
 
 </div>
