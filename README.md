@@ -41,8 +41,9 @@ A comprehensive machine learning system designed to predict stock market movemen
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd stock-market-prediction-engine
+git clone https://github.com/kushalX13/A-Time-Series-Machine-Learning-Approach-to-Predicting-Stock-Returns-.git
+cd A-Time-Series-Machine-Learning-Approach-to-Predicting-Stock-Returns-
+
 ```
 
 ### Step 2: Install Dependencies
