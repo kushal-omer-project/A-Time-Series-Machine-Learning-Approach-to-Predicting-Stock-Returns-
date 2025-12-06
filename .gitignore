@@ -126,5 +126,8 @@ dmypy.json
 PROJECT_PLAN.md
 PROJECT_OVERVIEW.md
 
-
+scripts/baseline_ml_models.py
+scripts/ensemble_methods_stacking.py
+scripts/market_analysis_patterns.py
+scripts/realtime_prediction_system.py
 
