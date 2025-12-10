@@ -89,21 +89,20 @@ python -c "from src.data_loader import DataLoader; loader = DataLoader(); loader
 
 The project uses the following Kaggle datasets:
 - **World Stock Prices**: `nelgiriyewithana/world-stock-prices-daily-updating`
-- **NASDAQ Stocks**: `svaningelgem/nasdaq-daily-stock-prices`
 
 **To download manually:**
 1. Visit the dataset pages on Kaggle
 2. Click "Download" (requires accepting dataset terms)
-3. Extract the CSV files to `data/raw/world_stocks/` and `data/raw/nasdaq_stocks/`
+3. Extract the CSV files to `data/raw/world_stocks/`
 
 **Expected data structure after download:**
 ```
 data/
 ├── raw/
 │   ├── world_stocks/
-│   │   └── World-Stock-Prices-Dataset.csv
-│   └── nasdaq_stocks/
-│       └── (NASDAQ stock data files)
+│       └── World-Stock-Prices-Dataset.csv
+│   
+│ 
 ├── processed/  (will be generated)
 └── features/   (will be generated)
 ```
@@ -129,7 +128,7 @@ Run the scripts in the `scripts/` directory in the following order:
    python scripts/data_download_exploration.py
    ```
    This script:
-   - Downloads required datasets from Kaggle (world_stocks, nasdaq_stocks)
+   - Downloads required datasets from Kaggle (world_stocks)
    - Explores the downloaded data
    - Identifies target stocks
    - Creates initial visualizations
@@ -263,7 +262,6 @@ stock-market-prediction-engine/
 - **TA-Lib** - Technical analysis indicators
 
 ### Data Sources
-- **yfinance** - Real-time market data fetching
 - **Kaggle API** - Historical dataset acquisition
 
 ## Model Performance
@@ -314,7 +312,6 @@ stock-market-prediction-engine/
 **Problem**: Dataset not found
 - **Solution**: Ensure dataset names match exactly:
   - `nelgiriyewithana/world-stock-prices-daily-updating`
-  - `svaningelgem/nasdaq-daily-stock-prices`
 
 ### Model Training Issues
 
