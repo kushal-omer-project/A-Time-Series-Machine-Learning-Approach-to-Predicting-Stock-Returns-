@@ -91,18 +91,16 @@ The project uses the following Kaggle datasets:
 - **World Stock Prices**: `nelgiriyewithana/world-stock-prices-daily-updating`
 
 **To download manually:**
-1. Visit the dataset pages on Kaggle
+1. Visit the dataset page on Kaggle: `nelgiriyewithana/world-stock-prices-daily-updating`
 2. Click "Download" (requires accepting dataset terms)
-3. Extract the CSV files to `data/raw/world_stocks/`
+3. Extract the CSV file to `data/raw/world_stocks/`
 
 **Expected data structure after download:**
 ```
 data/
 ├── raw/
-│   ├── world_stocks/
+│   └── world_stocks/
 │       └── World-Stock-Prices-Dataset.csv
-│   
-│ 
 ├── processed/  (will be generated)
 └── features/   (will be generated)
 ```
@@ -128,7 +126,7 @@ Run the scripts in the `scripts/` directory in the following order:
    python scripts/data_download_exploration.py
    ```
    This script:
-   - Downloads required datasets from Kaggle (world_stocks)
+   - Downloads the World Stock Prices dataset from Kaggle
    - Explores the downloaded data
    - Identifies target stocks
    - Creates initial visualizations
@@ -194,7 +192,6 @@ Run the scripts in the `scripts/` directory in the following order:
    - Calculates risk metrics (Sharpe Ratio, Max Drawdown, VaR)
    - Performs portfolio optimization
    - Generates risk analysis reports
-
 
 9. **Run Integration Tests**:
    ```bash
@@ -299,8 +296,6 @@ stock-market-prediction-engine/
 - Risk metrics visualization and monitoring
 - Model insights and feature importance
 
-
-
 ## Troubleshooting
 
 ### Data Download Issues
@@ -310,7 +305,7 @@ stock-market-prediction-engine/
 - Check that you've accepted the dataset terms on Kaggle
 
 **Problem**: Dataset not found
-- **Solution**: Ensure dataset names match exactly:
+- **Solution**: Ensure the dataset name matches exactly:
   - `nelgiriyewithana/world-stock-prices-daily-updating`
 
 ### Model Training Issues
